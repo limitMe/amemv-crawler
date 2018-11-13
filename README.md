@@ -39,6 +39,16 @@ $ cd amemv-crawler
 $ pip install -r requirements.txt
 ```
 
+其实建议使用pip3和python3运行本程序
+```
+$ sudo pip3 install -r requirements.txt
+```
+运行的时候
+```
+$ python3 amemv-video-ripper.py --no-favorite http://v.douyin.com/RC4GKw/,http://v.douyin.com/RCG3Pv/
+```
+--no-favorite 可以避免下载其收藏
+
 大功告成,直接跳到下一节配置和运行.
 
 ## 配置和运行
